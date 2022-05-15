@@ -301,3 +301,44 @@ header .cpca-navbar .cpca-buttons button {
 .cpca-service-wrapper .cpca-title-contant {
   margin: 90px auto 0;
 }
+
+.cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item {
+  width: 23%;
+  background: none;
+  box-shadow: none;
+  padding: 22px 10px;
+}
+.cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item h5 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 135%;
+  text-align: center;
+  color: #2C2C2C;
+}
+.cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #515151;
+}
+.cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item .item-img {
+  width: 72px;
+  height: 72px;
+  position: absolute;
+}
+.cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item .item-img-ps {
+  position: relative;
+  width: 34px;
+  top: 0;
+  left: 0;
+  transform: translate(57%, 70%);
+}
+.cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item .cpca-start-img {
+  padding-bottom: 35px;
+  padding-right: 30px;
+}
+.cpca-start-wrapper .cpca-start-btn {
+  background: #FF8643;
+  border: none;
+}
