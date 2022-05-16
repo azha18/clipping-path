@@ -75,7 +75,7 @@ p{
 		display: flex;
 		width: 100%;
 		justify-content: center;
-		align-items: center;
+		align-items: flex-start;
 		flex-wrap: wrap;
 
 		.cpca-grid-item{
@@ -556,46 +556,166 @@ header{
 
 .cpca-accordion-wrapper{
 	.cpca-accordion-grid{
-		.cpca-accordion-item{
-			background: none;
-			border: none;
+		.cpca-accordion{
+			width: 70%;
+			.cpca-accordion-item{
+				background: none;
+				border: none;
 
-			.cpca-accordion-header{
+				.cpca-accordion-header{
 
-				.cpca-accodion-btn{
-					background: none;
-					border-bottom: 1px solid  #515151;
-					font-weight: 500;
-					font-size: 18px;
-					line-height: 135%;
-					color: $heading-color;
+					.cpca-accodion-btn{
+						background: none;
+						border-bottom: 1px solid  #515151;
+						font-weight: 500;
+						font-size: 18px;
+						line-height: 135%;
+						color: $heading-color;
 
-					&::after{
+						&::after{
 
+						}
+
+						img{
+							width: 20px;
+							margin-right: 20px;
+						}
 					}
-
-					img{
-						width: 20px;
-						margin-right: 20px;
-					}
+					
 				}
-				
+			}
+			.cpca-accodion-cllps{
+				.accordion-body{
+					strong{
+						font-size: 16px;
+						line-height: 24px;
+						color: $content-color;
+						font-weight: 400;
+					}
+				}	
 			}
 		}
-		.cpca-accodion-cllps{
-			.accordion-body{
-				strong{
-					font-size: 16px;
-					line-height: 24px;
-					color: $content-color;
-					font-weight: 400;
+		
+	}
+}
+
+.cpca-footer-wrapper{
+	.cpca-footer-grid{
+		.cpca-footer-grid-item{
+			box-shadow: none;
+		    display: flex;
+		    justify-content: center;
+		    align-items: flex-start;
+		    padding: 0px;
+		}
+			.cpca-footer-logo{
+
+				padding-bottom: 50px;
+
+				.cpca-footer-logo-img{
+
+					width: 220px;
+					height: 55px;
 				}
 			}
-			
-			
+			.cpca-footer-contact{
+				.cpca-footer-contact-items{
+					.cpca-footer-contact-item{
+						
+						display: flex;
+
+						img{
+							width: 22px;
+							height: 22px;
+						}
+
+						p{
+							font-size: 16px;
+							line-height: 155%;
+							color: $content-color;
+							padding-left: 16px;
+							padding-bottom: 25px;
+						}
+
+					}
+				}
+				.cpca-social-icon{
+					display: flex;
+
+					a{
+						padding-right: 11px;
+						padding-bottom: 60px;
+					}
+				}
+				.cpca-form-submit{
+
+					h5{
+						font-weight: 600;
+						font-size: 18px;
+						line-height: 21px;
+						padding-bottom: 20px;
+					}
+					.cpca-submit-form{
+						background: #F5F5F5;
+						border: none;
+						outline: none;
+						font-size: 14px;
+						line-height: 155%;
+						color: #7A7A7A;
+						padding: 10px 16px;
+
+					}
+					.cpca-submit-btn{
+						font-family: 'Poppins', sans-serif;
+						font-size: 14px;
+						line-height: 155%;
+						color: #fff;
+						padding: 10px 21px;
+						border: none;
+						outline: none;
+						text-decoration: none;
+						margin: -4px;
+						background: linear-gradient(88.15deg, #438BF7 6.87%, #2C26A2 163.28%);
+					}
+					
+				}
+			}		
+	}
+	.cpca-footer-service{
+		.cpca-footer-service-header{
+
+			h5{
+				font-weight: 600;
+				font-size: 18px;
+				line-height: 21px;
+				color: $content-color;
+			}	
+		}
+		.cpca-footer-service-content{
+			p{
+				font-size: 16px;
+				line-height: 24px;
+				color: $content-color;
+				text-align: left;
+			}
+		}	
+	}
+
+	.cpca-footer-payment{
+		padding: 0;
+
+		.cpca-payment-item{
+			display: flex;
+			width: 100%;
+			padding-bottom: 40px;
+
+			.cpca-footer-service{
+				width: 50%;
+			}
 		}
 	}
 }
+
 
 
 

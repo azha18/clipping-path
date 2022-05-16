@@ -64,7 +64,7 @@ p {
   display: flex;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 .cpca-grid.cpca-grid-items .cpca-grid-item {
@@ -459,11 +459,14 @@ header .cpca-navbar .cpca-buttons button {
   margin-bottom: 10px;
 }
 
-.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion-item {
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion {
+  width: 70%;
+}
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion .cpca-accordion-item {
   background: none;
   border: none;
 }
-.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion-item .cpca-accordion-header .cpca-accodion-btn {
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion .cpca-accordion-item .cpca-accordion-header .cpca-accodion-btn {
   background: none;
   border-bottom: 1px solid #515151;
   font-weight: 500;
@@ -471,13 +474,99 @@ header .cpca-navbar .cpca-buttons button {
   line-height: 135%;
   color: #2C2C2C;
 }
-.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion-item .cpca-accordion-header .cpca-accodion-btn img {
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion .cpca-accordion-item .cpca-accordion-header .cpca-accodion-btn img {
   width: 20px;
   margin-right: 20px;
 }
-.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accodion-cllps .accordion-body strong {
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion .cpca-accodion-cllps .accordion-body strong {
   font-size: 16px;
   line-height: 24px;
   color: #515151;
   font-weight: 400;
+}
+
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-grid-item {
+  box-shadow: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-logo {
+  padding-bottom: 50px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-logo .cpca-footer-logo-img {
+  width: 220px;
+  height: 55px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-footer-contact-items .cpca-footer-contact-item {
+  display: flex;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-footer-contact-items .cpca-footer-contact-item img {
+  width: 22px;
+  height: 22px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-footer-contact-items .cpca-footer-contact-item p {
+  font-size: 16px;
+  line-height: 155%;
+  color: #515151;
+  padding-left: 16px;
+  padding-bottom: 25px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-social-icon {
+  display: flex;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-social-icon a {
+  padding-right: 11px;
+  padding-bottom: 60px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-form-submit h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  padding-bottom: 20px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-form-submit .cpca-submit-form {
+  background: #F5F5F5;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  line-height: 155%;
+  color: #7A7A7A;
+  padding: 10px 16px;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-form-submit .cpca-submit-btn {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 155%;
+  color: #fff;
+  padding: 10px 21px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  margin: -4px;
+  background: linear-gradient(88.15deg, #438BF7 6.87%, #2C26A2 163.28%);
+}
+.cpca-footer-wrapper .cpca-footer-service .cpca-footer-service-header h5 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #515151;
+}
+.cpca-footer-wrapper .cpca-footer-service .cpca-footer-service-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #515151;
+  text-align: left;
+}
+.cpca-footer-wrapper .cpca-footer-payment {
+  padding: 0;
+}
+.cpca-footer-wrapper .cpca-footer-payment .cpca-payment-item {
+  display: flex;
+  width: 100%;
+  padding-bottom: 40px;
+}
+.cpca-footer-wrapper .cpca-footer-payment .cpca-payment-item .cpca-footer-service {
+  width: 50%;
 }
