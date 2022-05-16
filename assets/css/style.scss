@@ -7,6 +7,8 @@ $backgound-color: #E5E5E5;
 
 
 body{
+	font-family: 'Macondo', cursive;
+	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -78,7 +80,10 @@ p{
 
 		.cpca-grid-item{
 			width: 30%;
-			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
 			margin: 12px;
 			padding: 40px 55px;
 			background: #FFFFFF;
@@ -93,7 +98,6 @@ p{
 				font-weight: 700;
 				font-size: 28px;
 				line-height: 135%;
-				text-align: center;
 				color: $heading-color;
 				padding-top: 14px;
 				padding-bottom: 15px;
@@ -381,20 +385,6 @@ header{
 			.item-img{
 				width: 72px;
 				height: 72px;
-				position: absolute;
-			}
-
-			.item-img-ps{
-				position: relative;
-			    width: 34px;
-			    top: 0;
-			    left: 0;
-			    transform: translate(57%, 70%);
-			}
-
-			.cpca-start-img{
-				padding-bottom: 35px;
-				padding-right: 30px;
 			}
 		}
 	}
@@ -403,7 +393,166 @@ header{
 		border: none;
 	}
 
+}
+
+.cpca-work-wrapper{
+	.cpca-work-grid{
+		.cpca-work-grid-item{
+			background: none;
+			box-shadow: none;
+			padding: 5px 55px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+
+			h5{
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 135%;
+				color: $content-color;
+
+			}
+
+			p{
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 24px;
+				text-align: left;
+				color: $content-color;
+			}
+			
+			.item-img{
+				width: 48px;
+				height: 48px;
+			}
+		}
+	}
+}
+
+.cpca-testimonial-wrapper{
+	.cpca-testimonial-title-content{
+		span{
+			color: $secendary-color;
+		}
+	}
+	.cpca-testimonial-grid{
+		.cpca-testimonial-grid-item{
+			background: #F7F7F7;
+			box-shadow: none;
+			border: 1px dashed #F4D4D4;
+			display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    align-items: flex-start;
+		    padding: 50px 30px;
+
+			.cpca-review{
+				padding-bottom: 60px;
+
+				p{
+					font-weight: 400;
+					font-size: 16px;
+					line-height: 28px;
+					color: $content-color;
+					text-align: left;	
+					margin: 0;
+
+					span{
+						font-weight: 600;
+					}
+				}
+
+				.item-img{
+					width: 40px;
+					height: 40px;
+					margin-bottom: 25px;
+
+
+				}
+			}
+			.cpca-review-author-details{
+				display: flex;
+
+				.cpca-review-author-img{
+					width: 94px;
+					height: 94px;
+				}
+
+				.cpca-review-author-prfl{
+					padding: 20px 5px;
+
+
+					h5{
+						font-weight: 400;
+						font-size: 18px;
+						line-height: 26px;
+						padding: 0;
+						margin: 0;
+					}
+					img{
+						width: 100px;
+						height: 16px;
+					}
+				}
+			}
+		}
+	}
 }	
+
+.cpca-pricing-wrapper{
+	.cpca-pricing-grid{
+		.cpca-pricing-grid-item{
+			padding: 0px;
+
+			.cpca-pricing-head{
+				width: 100%;
+				background: #0594E3;
+				text-align: center;
+
+				h5{
+					font-weight: 700;
+					font-size: 18px;
+					line-height: 135%;
+					color: #fff;
+					margin: 0;
+					padding: 26px 0px;
+				}
+			}
+			.cpca-pricing-items{
+				width: 100%;
+				padding: 30px;
+
+				.cpca-pricing-item{
+					display: flex;
+					flex-direction: row;
+					align-items: flex-start;
+
+
+					img{
+						width: 26px;
+						height: 26px;
+						margin-right: 10px;
+					}
+
+					p{
+						font-size: 16px;
+						line-height: 28px;
+						color: $content-color;
+					}
+
+				}
+				.cpca-pricing-btn{
+					width: 100%;
+				    background: rgb(255 134 67 / 20%);
+				    padding: 10px;
+				    color: #000;
+				    margin-bottom: 10px;
+				}	
+			}
+		}
+	}
+}
 
 
  
