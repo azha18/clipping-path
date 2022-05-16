@@ -458,3 +458,26 @@ header .cpca-navbar .cpca-buttons button {
   color: #000;
   margin-bottom: 10px;
 }
+
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion-item {
+  background: none;
+  border: none;
+}
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion-item .cpca-accordion-header .cpca-accodion-btn {
+  background: none;
+  border-bottom: 1px solid #515151;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 135%;
+  color: #2C2C2C;
+}
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion-item .cpca-accordion-header .cpca-accodion-btn img {
+  width: 20px;
+  margin-right: 20px;
+}
+.cpca-accordion-wrapper .cpca-accordion-grid .cpca-accodion-cllps .accordion-body strong {
+  font-size: 16px;
+  line-height: 24px;
+  color: #515151;
+  font-weight: 400;
+}

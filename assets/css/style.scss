@@ -554,6 +554,51 @@ header{
 	}
 }
 
+.cpca-accordion-wrapper{
+	.cpca-accordion-grid{
+		.cpca-accordion-item{
+			background: none;
+			border: none;
+
+			.cpca-accordion-header{
+
+				.cpca-accodion-btn{
+					background: none;
+					border-bottom: 1px solid  #515151;
+					font-weight: 500;
+					font-size: 18px;
+					line-height: 135%;
+					color: $heading-color;
+
+					&::after{
+
+					}
+
+					img{
+						width: 20px;
+						margin-right: 20px;
+					}
+				}
+				
+			}
+		}
+		.cpca-accodion-cllps{
+			.accordion-body{
+				strong{
+					font-size: 16px;
+					line-height: 24px;
+					color: $content-color;
+					font-weight: 400;
+				}
+			}
+			
+			
+		}
+	}
+}
+
+
+
 
  
  
