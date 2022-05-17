@@ -98,6 +98,7 @@ p{
 				font-weight: 700;
 				font-size: 28px;
 				line-height: 135%;
+				text-align: center;
 				color: $heading-color;
 				padding-top: 14px;
 				padding-bottom: 15px;
@@ -353,7 +354,10 @@ header{
 
 .cpca-service-wrapper{
 	background: #F7F9FF;
-
+	.cpca-service-grid{
+		.cpca-service-grid-item{
+		}
+	}
 	.cpca-title-contant {
     	margin: 90px auto 0;
 	}
@@ -394,13 +398,12 @@ header{
 	}
 
 }
-
 .cpca-work-wrapper{
 	.cpca-work-grid{
 		.cpca-work-grid-item{
 			background: none;
 			box-shadow: none;
-			padding: 5px 55px;
+			padding: 0px 55px 0px 0px;
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
@@ -411,6 +414,8 @@ header{
 				font-size: 18px;
 				line-height: 135%;
 				color: $content-color;
+				text-align: left;
+				margin: 0;
 
 			}
 
@@ -428,6 +433,7 @@ header{
 			}
 		}
 	}
+	background: #f7f9ff;
 }
 
 .cpca-testimonial-wrapper{
@@ -477,6 +483,7 @@ header{
 				.cpca-review-author-img{
 					width: 94px;
 					height: 94px;
+					margin-right: 10px;
 				}
 
 				.cpca-review-author-prfl{
@@ -498,6 +505,7 @@ header{
 			}
 		}
 	}
+	background: #e8ebf3;
 }	
 
 .cpca-pricing-wrapper{
@@ -548,6 +556,7 @@ header{
 				    padding: 10px;
 				    color: #000;
 				    margin-bottom: 10px;
+				    margin-top: 20px;
 				}	
 			}
 		}
@@ -556,6 +565,8 @@ header{
 
 .cpca-accordion-wrapper{
 	.cpca-accordion-grid{
+		padding-bottom: 130px;
+
 		.cpca-accordion{
 			width: 70%;
 			.cpca-accordion-item{
@@ -571,6 +582,7 @@ header{
 						font-size: 18px;
 						line-height: 135%;
 						color: $heading-color;
+						padding: 16px 0px;
 
 						&::after{
 
@@ -586,6 +598,8 @@ header{
 			}
 			.cpca-accodion-cllps{
 				.accordion-body{
+					padding: 25px;
+					padding-left: 0px;
 					strong{
 						font-size: 16px;
 						line-height: 24px;
@@ -597,10 +611,16 @@ header{
 		}
 		
 	}
+	background: #f7f9ff;
 }
 
 .cpca-footer-wrapper{
+	position: relative;
+	padding: 170px 0 0 0;
+
 	.cpca-footer-grid{
+		padding-bottom: 75px;
+
 		.cpca-footer-grid-item{
 			box-shadow: none;
 		    display: flex;
@@ -608,6 +628,50 @@ header{
 		    align-items: flex-start;
 		    padding: 0px;
 		}
+		.cpca-get-start-us{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			max-width: 1164px;
+		    height: 177px;
+		    width: 100%;
+		    background: linear-gradient(91.12deg,#438bf7 4.2%,#4139d6 104.38%);
+		    box-shadow: 0 4px 18px rgb(116 109 109 / 10%);
+		    border-radius: 11px;
+		    justify-content: center;
+		    text-align: center;
+		    margin: 0 auto;
+		    position: absolute;
+		    top: 0;
+		    left: 50%;
+		    transform: translate(-50%,-60%);
+
+		    .cpca-brand-item{
+		    	display: flex;
+		    	align-items: flex-start;
+		    	width: 70%;
+
+		    	h5{
+		    		font-weight: 500;
+		    		font-size: 34px;
+		    		line-height: 40px;
+		    		color: #F7F9FF;
+		    	}
+		    }
+
+		    .cpca-get-start-us-btn{
+		    	background: #fff;
+		    	border-radius: 4px;
+		    	border: none;
+		    	outline: none;
+
+		    	a{
+		    		color: #3344BB;
+		    		border: none;
+		    	}
+		    }
+		}
+
 			.cpca-footer-logo{
 
 				padding-bottom: 50px;
@@ -688,6 +752,7 @@ header{
 				font-weight: 600;
 				font-size: 18px;
 				line-height: 21px;
+				text-align: left;
 				color: $content-color;
 			}	
 		}
@@ -714,6 +779,25 @@ header{
 			}
 		}
 	}
+	.cpca-copy-right-section{
+		display: flex;
+		padding: 20px;
+		justify-content: center;
+		align-items: center;
+
+		p{
+			margin: 0;
+		}
+
+		a{
+			text-decoration: none;
+			font-size: 16px;
+			line-height: 155%;
+			color: $content-color;
+			font-family: 'Poppins', sans-serif;
+		}
+	}
+	
 }
 
 
