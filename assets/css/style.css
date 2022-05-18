@@ -128,12 +128,13 @@ header .cpca-navbar ul li a {
 header .cpca-navbar ul li a:hover {
   color: #FF8643;
 }
-header .cpca-navbar .cpca-buttons button {
+header .cpca-navbar .cpca-buttons .cpca-get-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   line-height: 19px;
   margin-left: 10px;
-  width: 128px;
-  height: 46px;
   border-radius: 4px;
   margin-right: 25px;
   margin-left: 15px;
@@ -334,6 +335,60 @@ header .cpca-navbar .cpca-buttons button {
 .cpca-start-wrapper .cpca-start-btn {
   background: #FF8643;
   border: none;
+}
+
+.cpca-slider-wrapper .cpca-title-contant {
+  position: relative;
+}
+.cpca-slider-wrapper .cpca-title-contant h2 span {
+  color: #FF8643;
+}
+.cpca-slider-wrapper .cpca-title-contant .cpca-slider-arrow-left {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-475%, 4%);
+}
+.cpca-slider-wrapper .cpca-title-contant .cpca-slider-arrow-right {
+  width: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(475%, 4%);
+}
+.cpca-slider-wrapper .cpca-slider-grid .cpca-slider-grid-item {
+  padding: 0px;
+}
+.cpca-slider-wrapper .cpca-slider-grid .cpca-slider-grid-item .cpca-slider-head {
+  width: 100%;
+  background: #0594E3;
+  text-align: center;
+}
+.cpca-slider-wrapper .cpca-slider-grid .cpca-slider-grid-item .cpca-slider-head h5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 135%;
+  color: #fff;
+  margin: 0;
+  padding: 10px 0px;
+}
+.cpca-slider-wrapper .cpca-slider-grid .cpca-slider-grid-item .cpca-slider-cmpr-imgs {
+  width: 100%;
+}
+.cpca-slider-wrapper .cpca-slider-grid .cpca-slider-grid-item .cpca-slider-items {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 25px;
+}
+.cpca-slider-wrapper .cpca-slider-grid .cpca-slider-grid-item .cpca-slider-items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #515151;
+  padding-top: 20px;
 }
 
 .cpca-work-wrapper {
