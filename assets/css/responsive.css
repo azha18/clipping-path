@@ -245,7 +245,7 @@
     align-items: center;
   }
 }
-/*Desktop device*/
+/*Desktop Device*/
 @media screen and (max-width: 992px) {
   .cpca-grid.cpca-grid-items .cpca-grid-item .cpca-slider-grid-item .cpca-slider-items {
     padding: 10px 5px;
@@ -255,3 +255,4 @@
     display: none !important;
   }
 }
+/* Mobile Device  */

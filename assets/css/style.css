@@ -517,6 +517,46 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   height: 16px;
 }
 
+.cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title .cpca-switcher {
+  background: rgba(255, 134, 67, 0.2);
+  width: 82px;
+  height: 33px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 5px;
+  transition: 0.3s ease;
+}
+.cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title .cpca-switcher.cpca-switcher-left span.cpca-switcher-circle {
+  transform: translateX(0);
+}
+.cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title .cpca-switcher.cpca-switcher-middle span.cpca-switcher-circle {
+  transform: translateX(100%);
+}
+.cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title .cpca-switcher.cpca-switcher-right span.cpca-switcher-circle {
+  transform: translateX(200%);
+}
+.cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title .cpca-switcher span.cpca-switcher-circle {
+  background: #FF8643;
+  width: 24px;
+  height: 24px;
+  display: block;
+  border-radius: 50%;
+  transition: 0.3s ease;
+  transform: translateX(0);
+}
+.cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title p {
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}
 .cpca-pricing-wrapper .cpca-pricing-grid .cpca-pricing-grid-item {
   padding: 0px;
 }
