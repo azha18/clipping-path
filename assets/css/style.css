@@ -109,6 +109,32 @@ p {
   height: auto;
 }
 
+.cpca-fancy-wrapper {
+  position: relative;
+  z-index: 1;
+}
+.cpca-fancy-wrapper .cpca-eclipse-purple {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 334px;
+}
+.cpca-fancy-wrapper .cpca-eclipse-blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 334px;
+}
+.cpca-fancy-wrapper .cpca-curve-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+.cpca-fancy-wrapper .container {
+  z-index: 10;
+}
+
 header .cpca-navbar {
   padding: 20px 25px;
   background: #fff;
@@ -289,6 +315,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   left: 50%;
   transform: translate(-50%, 50%);
   padding: 30px 0;
+  z-index: 10;
 }
 .cpca-counter-wrapper .cpca-brand h5 {
   font-weight: 500;
@@ -753,11 +780,18 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   text-align: left;
   color: #515151;
 }
-.cpca-footer-wrapper .cpca-footer-service .cpca-footer-service-content p {
+.cpca-footer-wrapper .cpca-footer-service .cpca-footer-service-content ul {
+  padding: 0;
+}
+.cpca-footer-wrapper .cpca-footer-service .cpca-footer-service-content ul li {
+  list-style: none;
+}
+.cpca-footer-wrapper .cpca-footer-service .cpca-footer-service-content ul li a {
   font-size: 16px;
   line-height: 24px;
   color: #515151;
   text-align: left;
+  text-decoration: none;
 }
 .cpca-footer-wrapper .cpca-footer-payment {
   padding: 0;
