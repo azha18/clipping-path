@@ -343,6 +343,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   background: none;
   box-shadow: none;
   padding: 22px 10px;
+  margin-bottom: 50px;
 }
 .cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item h5 {
   font-weight: 700;
@@ -543,6 +544,10 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   width: 100px;
   height: 16px;
 }
+.cpca-testimonial-wrapper .slick-dots li button:before {
+  content: "";
+  background: url("../images/dots.png") no-repeat;
+}
 
 .cpca-pricing-wrapper .cpca-title-contant .cpca-pricing-title {
   display: flex;
@@ -628,9 +633,6 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   margin-top: 20px;
 }
 
-.cpca-accordion-wrapper {
-  background: #f7f9ff;
-}
 .cpca-accordion-wrapper .cpca-accordion-grid {
   padding-bottom: 130px;
 }

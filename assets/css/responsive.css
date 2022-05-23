@@ -246,7 +246,7 @@
   }
 }
 /*Desktop Device*/
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   .cpca-grid.cpca-grid-items .cpca-grid-item {
     width: 45%;
   }
@@ -313,6 +313,51 @@
   }
   .cpca-slider-wrapper .cpca-slider-grid .slick-prev, .cpca-slider-wrapper .cpca-slider-grid .slick-next {
     display: none !important;
+  }
+
+  .cpca-footer-wrapper .cpca-footer-grid .cpca-get-start-us {
+    width: 90%;
+  }
+}
+/*Large Device*/
+@media screen and (max-width: 1399px) {
+  .cpca-navbar .cpca-navbar-logo .cpca-logo {
+    width: 160px;
+    height: auto;
+  }
+  .cpca-navbar .cpca-navbar-logo .navbar-collapse ul li {
+    padding: 0px;
+  }
+  .cpca-hero .cpca-hero-left .cpca-hero-left-item {
+    padding: 0;
+  }
+  .cpca-hero .cpca-hero-left .cpca-hero-left-item h1 {
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .cpca-hero .cpca-hero-left .cpca-hero-left-item P {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .cpca-hero .cpca-left-group .cpca-trust-thousend .cpca-thousend-item img {
+    width: 170px;
+  }
+  .cpca-hero .cpca-left-group .cpca-trust-thousend .cpca-thousend-item p {
+    font-size: 12px;
+    padding: 0px 10px;
+  }
+  .cpca-counter-wrapper .cpca-brand {
+    width: 90%;
+  }
+
+  .cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item {
+    width: 20%;
+  }
+
+  .cpca-pricing-wrapper .cpca-pricing-grid .cpca-pricing-grid-item .cpca-pricing-items .cpca-pricing-item p {
+    text-align: left;
+    font-size: 14px;
   }
 
   .cpca-footer-wrapper .cpca-footer-grid .cpca-get-start-us {

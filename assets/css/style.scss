@@ -402,6 +402,7 @@ header{
 			background: none;
 			box-shadow: none;
 			padding: 22px 10px;
+			margin-bottom: 50px;
 
 			h5{
 				font-weight: 700;
@@ -600,12 +601,16 @@ header{
 }
 
 .cpca-testimonial-wrapper{
+	background: #e8ebf3;
+
 	.cpca-testimonial-title-content{
 		span{
 			color: $secendary-color;
 		}
 	}
 	.cpca-testimonial-grid{
+		margin-bottom: 20px
+
 		.cpca-testimonial-grid-item{
 			background: #F7F7F7;
 			box-shadow: none;
@@ -668,7 +673,20 @@ header{
 			}
 		}
 	}
-	background: #e8ebf3;
+
+	.slick-dots{
+		li{
+			button{
+
+				&:before{
+					content: '';
+					background: url('../images/dots.png') no-repeat;
+
+				}
+			}
+			
+		}
+	}
 }	
 
 .cpca-pricing-wrapper{
@@ -793,6 +811,8 @@ header{
 }
 
 .cpca-accordion-wrapper{
+	background: red;
+
 	.cpca-accordion-grid{
 		padding-bottom: 130px;
 
@@ -840,7 +860,6 @@ header{
 		}
 		
 	}
-	background: #f7f9ff;
 }
 
 .cpca-footer-wrapper{
