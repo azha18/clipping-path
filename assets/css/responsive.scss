@@ -8,7 +8,13 @@
 
  /*Tablet device*/
 
- @media screen and (max-width:  768px) {
+ @media screen and (min-width:  577px) and (max-width:  768px) {
+
+	.cpca-fancy-items{
+		.cpca-dotted-bg{
+			display: none;
+		}
+	}
 
  	.cpca-section-pad {
  		padding: 70px 0;
@@ -55,6 +61,16 @@
  		}
  	}
 
+ 	header{
+ 		.cpca-navbar{
+ 			ul{
+ 				li{
+ 					padding: 5px 10px;
+ 				}
+ 			}
+ 		}
+ 	}
+
 
 	.cpca-hero{
 		padding: 50px 0;
@@ -62,6 +78,7 @@
 			.cpca-hero-left-item{
 				padding: 0;
 				text-align: center;
+				margin-top: 60px;
 
 				h1{
 					font-size: 42px;
@@ -88,9 +105,14 @@
 			    margin-bottom: 20px;
 
 			    .cpca-trust-thousend{
-			    	h5{
-			    		text-align: center;
+			    	.cpca-thousend-head{
+			    		justify-content: center;
+			    		h5{
+			    			text-align: center;
+			    		}
+
 			    	}
+			    	
 			    	width: 100%;
 			    	margin-bottom: 10px;
 
@@ -130,12 +152,9 @@
 		min-height: auto;
 		padding-top:  35px;
 
-		.cpca-bottom-items {
-			margin-bottom: 75px;
-		}
-
 
 		.cpca-bottom-items{
+			margin-bottom: 60px;
 			.cpca-bottom-item{
 				padding: 0px 10px;
 
@@ -147,7 +166,7 @@
 				}
 
 				P{
-					font-size: 13px;
+					font-size: 14px;
 					line-height: 15px;
 					text-align: center;
 				}
@@ -172,6 +191,7 @@
 		}
 		.cpca-service-grid{
 			.cpca-service-grid-item{
+				padding: 20px;
 				h5{
 					font-size: 22px;
 				}
@@ -183,14 +203,24 @@
 
 	.cpca-start-wrapper{
 		.cpca-start-grid{
-			.cpca-start-grid-item{
-				padding: 0;
-			}
+				margin-bottom: 30px;
+				.cpca-start-grid-item{
+					width: 45%;
+					padding: 15px;
+					margin-bottom: 0;
+				}
+			
 		}
 	}
 
 	.cpca-slider-wrapper{
 		.cpca-slider-grid{
+			.slick-arrow{
+				
+				&:before{
+						display: none;
+					}
+			}
 			.cpca-slider-grid-item{
 				padding: 0;
 			}
@@ -217,12 +247,12 @@
 					.cpca-pricing-item{
 
 						img{
-							margin: 0;
+							margin-right: 10px;
 						}
 
 						p{
 							margin: 0;
-							font-size: 14px;
+							font-size: 12px;
 						}
 					}
 				}
@@ -270,6 +300,14 @@
 
 			.cpca-accordion{
 				width: 100%;
+
+				.cpca-accordion-item{
+					.cpca-accordion-header{
+						.cpca-accodion-btn{
+
+						}
+					}
+				}
 			}
 		}
 	}
@@ -282,6 +320,7 @@
 			.cpca-get-start-us{
 				width: 90%;
 				height: 107px;
+				z-index: 1;
 
 				.cpca-brand-item{
 					h5{
@@ -383,7 +422,7 @@
  /*Desktop Device*/
 
 
- @media screen and (max-width: 991px) {
+ @media screen and(min-width: 769px) and (max-width: 991px) {
 
  	.cpca-grid{
  		
@@ -453,11 +492,11 @@
  	}
 
  	.cpca-counter-wrapper{
+ 		padding-top: 0px;
  		.cpca-bottom-items{
  			margin-bottom: 60px;
 
  			.cpca-bottom-item{
- 				padding: 0px 30px;
  				h2{
  					font-size: 22px;
  				}
@@ -505,7 +544,7 @@
 
  /*Large Device*/
 
- @media screen and (max-width: 1399px) {
+ @media screen and(min-width: 993px) and (max-width: 1399px) {
  	
 	.cpca-navbar{
 		.cpca-navbar-logo{
@@ -570,13 +609,9 @@
 		}
 	}
 
-	.cpca-start-wrapper{
-		.cpca-start-grid{
-			.cpca-start-grid-item{
-				width: 20%;
-			}
-		}
-	}
+	
+
+	
 
 	.cpca-pricing-wrapper{
 		.cpca-pricing-grid{
@@ -611,14 +646,20 @@
 
 /* Mobile Device  */
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 320px) and (max-width: 576px) {
+
+	 	.cpca-fancy-items{
+	 		.cpca-dotted-bg{
+	 			display: none;
+	 		}
+	 	}
 
 	 	.cpca-btn{
 	 		font-size: 12px;
 	 		display: flex;
 	 		align-items: center;
 	 	    justify-content: center;
-	 	    padding: 10px 22px;
+	 	    padding: 10px 15px;
 	 	    max-width: 200px;
 
 	 		img{
@@ -631,12 +672,17 @@
 	 	.cpca-title-contant{
 	 		h2{
 	 			font-size: 25px;
+	 			margin-bottom: 0;
 	 		}
 
 	 		p{
-	 			padding-bottom: 36px;
-	 			font-size: 14px;
+	 			padding-bottom: 26px;
+	 			font-size: 12px;
 	 		}
+	 	}
+
+	 	.cpca-section-pad{
+	 		padding: 60px 0px;
 	 	}
 
 	 	.cpca-grid {
@@ -671,25 +717,47 @@
 
 	 	.cpca-hero{
 	 		padding: 100px 0px;
+	 		padding-bottom: 0;
 
 	 		.cpca-hero-left{
 	 			.cpca-hero-left-item{
+	 				padding: 0;
+	 				text-align: center;
+
 	 				h1{
-	 					font-size: 36px;
+	 					font-size: 30px;
+	 					padding-bottom: 0;
 	 				}
 
 	 				p{
-	 					font-size: 14px;
+	 					font-size: 12px;
+	 					line-height: 28px;
+	 					margin-bottom: 20px;
+	 				}
+
+	 				.cpca-get-start-btn{
+	 					margin: 0 auto;
+	 					max-width: 145px;
+
+	 					img{
+	 						width: 15px;
+	 					}
 	 				}
 	 			}
 	 			.cpca-left-group {
 	 				margin-top: 15px;
+	 				display: flex;
+	 				flex-direction: column;
+	 				align-items: center;
+
 	 				.cpca-trust-thousend{
+	 		
 	 					h5{
 	 						font-size: 16px;
 	 					}
 
 	 					.cpca-thousend-item{
+	 						flex-direction: column;
 	 						img{
 	 							width: 180px;
 	 							padding: 0;
@@ -697,12 +765,27 @@
 
 	 						p{
 	 							font-size: 12px;
+	 							text-align: center;
 	 						}
 	 					}
 	 				}
 	 				.cpca-trust-pilot{
 	 						width: 170px;
+	 						border: none;
 	 					}
+	 			}
+	 		}
+	 		.cpca-hero-right{
+	 			padding: 0;
+	 		}
+	 		.cpca-hero-right-options{
+	 			padding: 0;
+
+	 			ul{
+	 				li{
+	 					width: 50%;
+	 					font-size: 11px;
+	 				}
 	 			}
 	 		}
 	 	}
@@ -710,15 +793,30 @@
 	 	.cpca-counter-wrapper{
 	 		.cpca-bottom-items{
 	 			margin-bottom: 60px;
+	 			width: 100%;
+	 			flex-wrap: wrap;
+	 			justify-content: center;
 
 	 			.cpca-bottom-item{
+	 				width: 45%;
+	 				border: none;
+
 	 				h2{
 	 					font-size: 18px;
 	 				}
 
 	 				p{
-	 					font-size: 10px;
+	 					font-size: 12px;
 	 				}
+	 			}
+	 		}
+
+	 		.cpca-brand{
+	 			width: 90%;
+	 			padding: 20px 0px;
+
+	 			h5{
+	 				font-size: 14px;
 	 			}
 	 		}
 	 	}
@@ -737,10 +835,36 @@
 	 		}
 	 	}
 
+	 	.cpca-start-wrapper{
+	 		.cpca-start-grid{
+	 			.cpca-start-grid-item{
+	 				margin-bottom: 0;
+	 				padding: 0;
+	 			}
+	 		}
+	 	}
+
+	 	.cpca-slider-wrapper{
+	 		.cpca-slider-grid{
+	 			.slick-arrow{
+	 				
+	 				&:before{
+	 						display: none;
+	 					}
+	 			}
+	 		}
+	 	}
+
 	 	.cpca-pricing-wrapper{
 	 		.cpca-pricing-grid{
 	 			.cpca-pricing-grid-item{
 	 				padding: 0;
+
+	 				.cpca-pricing-head{
+	 					h5{
+	 						padding: 15px 0;
+	 					}
+	 				}
 
 	 				.cpca-pricing-items{
 	 					display: flex;
@@ -751,7 +875,8 @@
 	 						margin-bottom: 10px;
 
 	 						p{
-	 							margin-left: 10px;
+	 							font-size: 12px;
+	 							line-height: 20px;
 	 						}
 	 					}
 	 				}
@@ -760,20 +885,68 @@
 	 	}
 
 	 	.cpca-accordion-wrapper{
-			.cpca-accordion-grid{
-	 			padding: 0px 20px 60px 20px;
+
+	 		.cpca-accordion-grid{
+	 			padding-bottom: 60px;
+
+	 			.cpca-accordion{
+	 				width: 100%;
+	 				.cpca-accordion-item{
+
+	 					.cpca-accordion-header{
+
+	 						.cpca-accodion-btn{
+	 							font-size: 14px;
+	 							
+
+	 							&::after{
+	 								display: none;
+	 							}
+
+	 							img{
+	 								width: 16px;
+	 								margin-right: 10px;
+	 							}
+	 						}
+	 						
+	 					}
+	 				}
+	 				.cpca-accodion-cllps{
+	 					.accordion-body{
+	 						padding: 10px;
+	 						strong{
+	 							font-size: 12px;
+	 							line-height: 20px;
+	 						}
+	 					}	
+	 				}
+	 			}
+	 			
 	 		}
 	 	}
 
 	 	.cpca-footer-wrapper{
 	 		.cpca-footer-grid{
+	 			margin-bottom: 0px;
+
 	 			.cpca-get-start-us{
+	 				display: flex;
+	 				flex-direction: column;
+	 				width: 90%;
+	 				height: 140px;
+
 	 				.cpca-brand-item{
 	 					h5{
-	 						font-size: 18px;
+	 						font-size: 15px;
+	 					}
+
+	 					.cpca-get-start-us-btn{
+	 						.cpca-pricing-btn{
+	 							padding: 10px 15px;
+	 						}
 	 					}
 	 				}
-	 			}
+	 			} 
 	 			.cpca-footer-grid-item{
 	 				align-items: center;
 
@@ -782,7 +955,7 @@
 	 						display: flex;
 	 						flex-direction: column;
 	 						align-items: center;
-	 					}
+	 					} 
 	 				}
 	 				.cpca-footer-contact-items{
 	 					.cpca-footer-contact-item{
@@ -804,6 +977,28 @@
 	 					padding-bottom: 0;
 
 	 				}	
+	 			}
+
+	 			.cpca-footer-contact{
+	 				.cpca-form-submit{
+	 					.cpca-submit-form{
+	 						padding: 10px 5px;
+	 					}
+	 				}
+	 				.cpca-social-icon{
+	 					a{
+	 						margin-bottom: 0px;
+	 					}
+	 				}
+	 			}
+	 		}
+	 		.cpca-copy-right-section{
+	 			padding: 0;
+
+	 			p{
+	 				a{
+	 					font-size: 10px;
+	 				}
 	 			}
 	 		}
 	 	}
