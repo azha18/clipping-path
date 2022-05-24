@@ -20,6 +20,7 @@ p {
   align-items: center;
   justify-content: center;
   padding: 10px 22px;
+  border: none;
 }
 .cpca-btn img {
   height: 12px;
@@ -761,6 +762,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   color: #000;
   margin-bottom: 10px;
   margin-top: 20px;
+  border: none;
 }
 .cpca-pricing-wrapper .cpca-pricing-grid .cpca-pricing-grid-item .cpca-pricing-items .cpca-pricing-btn.cpca-pricing-btn-2 {
   background: #FF8643;

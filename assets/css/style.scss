@@ -27,6 +27,7 @@ p{
 	align-items: center;
     justify-content: center;
     padding: 10px 22px;
+    border: none;
 	img{
 		height: 12px;
 		width: 16px;
@@ -945,6 +946,8 @@ header{
 				    color: #000;
 				    margin-bottom: 10px;
 				    margin-top: 20px;
+				    border: none;
+
 
 				    &.cpca-pricing-btn-2{
 				    	background: #FF8643;
