@@ -136,6 +136,9 @@
   .cpca-service-wrapper .cpca-title-contant {
     margin-top: 50px;
   }
+  .cpca-service-wrapper .cpca-service-grid > :nth-child(3n+2) {
+    margin-top: 0px;
+  }
   .cpca-service-wrapper .cpca-service-grid .cpca-service-grid-item {
     padding: 20px;
   }
@@ -384,7 +387,15 @@
   }
 }
 /* Mobile Device  */
-@media screen and (min-width: 320px) and (max-width: 576px) {
+@media screen and (max-width: 576px) {
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
+
+  .cpca-fancy-wrapper .cpca-fancy-items img {
+    display: none;
+  }
+
   .cpca-fancy-items .cpca-dotted-bg {
     display: none;
   }
@@ -466,8 +477,16 @@
     flex-direction: column;
     align-items: center;
   }
-  .cpca-hero .cpca-hero-left .cpca-left-group .cpca-trust-thousend h5 {
+  .cpca-hero .cpca-hero-left .cpca-left-group .cpca-trust-thousend {
+    text-align: center;
+  }
+  .cpca-hero .cpca-hero-left .cpca-left-group .cpca-trust-thousend .cpca-thousend-head h5 {
     font-size: 16px;
+    margin: 0;
+    padding-left: 10px;
+  }
+  .cpca-hero .cpca-hero-left .cpca-left-group .cpca-trust-thousend .cpca-thousend-head .cpca-thousend-arrow {
+    display: none;
   }
   .cpca-hero .cpca-hero-left .cpca-left-group .cpca-trust-thousend .cpca-thousend-item {
     flex-direction: column;
@@ -519,6 +538,9 @@
     font-size: 14px;
   }
 
+  .cpca-service-wrapper .cpca-service-grid > :nth-child(3n+2) {
+    margin-top: 10px;
+  }
   .cpca-work-wrapper .cpca-work-grid .cpca-work-grid-item {
     display: flex;
     justify-content: center;
