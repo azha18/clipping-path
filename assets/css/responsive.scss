@@ -191,10 +191,11 @@
 		}
 		.cpca-service-grid{
 			>:nth-child(3n+2){
-				margin-top: 0px;
+				margin-top: 10px;
 			}
 			.cpca-service-grid-item{
 				padding: 20px;
+				min-height: 412px;
 				h5{
 					font-size: 22px;
 				}
@@ -205,7 +206,14 @@
 
 
 	.cpca-start-wrapper{
+		.cpca-after-img{
+			display: none;
+		}
+
 		.cpca-start-grid{
+			:nth-child(2n){
+				margin-top: 10px;
+			}
 				margin-bottom: 30px;
 				.cpca-start-grid-item{
 					width: 45%;
@@ -226,6 +234,10 @@
 			}
 			.cpca-slider-grid-item{
 				padding: 0;
+
+				.cpca-slider-items{
+					min-height: 275px;
+				}
 			}
 		}
 	}
@@ -239,6 +251,9 @@
 
 	.cpca-pricing-wrapper{
 		.cpca-pricing-grid{
+			>:nth-child(2n){
+				margin-top: 10px;
+			}
 			.cpca-pricing-grid-item{
 				.cpca-pricing-head{
 					h5{
@@ -246,7 +261,7 @@
 					}
 				}
 				.cpca-pricing-items{
-					padding: 24px 20px;
+					padding: 24px 5px;
 					.cpca-pricing-item{
 
 						img{
@@ -256,7 +271,12 @@
 						p{
 							margin: 0;
 							font-size: 12px;
+							padding-bottom: 10px;
 						}
+					}
+					.cpca-pricing-btn{
+						margin: 0 auto;
+						font-size: 12px;
 					}
 				}
 			}
@@ -267,6 +287,7 @@
 		.cpca-testimonial-grid{
 			.cpca-testimonial-grid-item{
 				padding: 24px 10px;
+				min-height: 382px;
 				.cpca-review{
 					padding-bottom: 30px;
 
@@ -473,6 +494,10 @@
  				.cpca-trust-thousend{
  					width: 50%;
 
+ 					.cpca-thousend-head{
+ 						justify-content: center;
+ 					}
+
  					h5{
  						text-align: center;
  					}
@@ -491,6 +516,9 @@
  				}
  			}
  
+ 		}
+ 		.cpca-hero-right{
+ 			padding-right: 24px;
  		}
  	}
 
@@ -515,16 +543,38 @@
  		}
  	}
 
+ 	.cpca-service-wrapper{
+ 		.cpca-service-grid{
+ 			>:nth-child(3n+2){
+ 				margin-top: 10px;
+ 			}
+ 		}
+ 	}
+
  	.cpca-start-wrapper{
+ 		.cpca-after-img{
+ 			display: none;
+ 		}
+
  		.cpca-start-grid{
  			margin-bottom: 30px;
+
+ 			>:nth-child(2n){
+ 				margin-top: 10px;
+ 			}
  			.cpca-start-grid-item{
 
  			}
  		}
  	}
 
-
+ 	.cpca-pricing-wrapper{
+ 		.cpca-pricing-grid{
+ 			>:nth-child(2n){
+ 				margin-top: 10px;
+ 			}
+ 		}
+ 	}
  	
  	.cpca-slider-wrapper {
 	 	.cpca-slider-grid{
@@ -536,8 +586,11 @@
 
  	.cpca-footer-wrapper{
  		.cpca-footer-grid{
- 			.cpca-get-start-us{
- 				width: 90%;
+ 			.cpca-footer-grid-item{
+ 				padding: 0;
+ 				.cpca-get-start-us{
+ 					width: 90%;
+ 				}
  			}
  		}
  	}
@@ -588,6 +641,10 @@
 
 		.cpca-left-group{
 			.cpca-trust-thousend{
+				.cpca-thousend-head{
+					display: flex;
+					justify-content: center;
+				}
 				.cpca-thousend-item{
 					img{
 						width: 170px;
@@ -612,7 +669,11 @@
 		}
 	}
 
-	
+	.cpca-start-wrapper{
+		.cpca-after-img{
+			display: none;
+		}
+	}
 
 	
 
@@ -805,6 +866,10 @@
 	 			padding: 0;
 
 	 			ul{
+	 				:nth-child(3n){
+	 					justify-content: start;
+	 				}
+
 	 				li{
 	 					width: 50%;
 	 					font-size: 11px;
@@ -850,6 +915,7 @@
 	 				margin-top: 10px;
 	 			}
 	 			.cpca-service-grid-item{
+	 				min-height: auto;
 	 			}
 	 		}
 	 		.cpca-title-contant {
@@ -873,7 +939,13 @@
 	 	}
 
 	 	.cpca-start-wrapper{
+	 		.cpca-after-img{
+	 			display: none;
+	 		}
 	 		.cpca-start-grid{
+	 			>:nth-child(2n){
+	 				margin-top: 10px;
+	 			}
 	 			.cpca-start-grid-item{
 	 				margin-bottom: 0;
 	 				padding: 0;
@@ -906,7 +978,8 @@
 	 				.cpca-pricing-items{
 	 					display: flex;
 	 					flex-direction: column;
-	 					align-items: center;
+	 					align-items: flex-start;
+	 					padding: 25px;
 
 	 					.cpca-pricing-item{
 	 						margin-bottom: 10px;
@@ -916,6 +989,9 @@
 	 							line-height: 20px;
 	 						}
 	 					}
+	 					.cpca-pricing-btn{
+	 						margin: 0 auto;
+	 					}
 	 				}
 	 			}
 	 		}
@@ -924,6 +1000,7 @@
 	 	.cpca-testimonial-wrapper{
 	 		.cpca-testimonial-grid{
 	 			.cpca-grid-item{
+	 				min-height: auto;
 	 				.cpca-review{
 
 	 				}
@@ -990,6 +1067,12 @@
 	 					h5{
 	 						font-size: 15px;
 	 					}
+	 				
+	 				}
+	 					img{
+	 						&.cpca-brand-img{
+	 						display: none;
+	 					}
 
 	 					.cpca-get-start-us-btn{
 	 						.cpca-pricing-btn{
@@ -1039,6 +1122,18 @@
 	 				.cpca-social-icon{
 	 					a{
 	 						margin-bottom: 0px;
+	 					}
+	 				}
+	 				.cpca-form-submit{
+	 					h5{
+	 						font-size: 16px;
+	 					}
+	 					.cpca-submit-form{
+	 						font-size: 12px;
+
+	 					}
+	 					.cpca-submit-btn{
+	 						font-size: 12px;
 	 					}
 	 				}
 	 			}

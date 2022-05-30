@@ -4,6 +4,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
 }
@@ -186,6 +190,10 @@ p {
   z-index: 1;
 }
 
+.cpca-active {
+  color: #FF8643;
+}
+
 header .cpca-navbar {
   padding: 20px 25px;
   background: #fff;
@@ -195,7 +203,7 @@ header .cpca-navbar .cpca-navbar-logo cpca-logo {
   height: 56px;
 }
 header .cpca-navbar ul li {
-  padding: 15px;
+  padding: 5px 15px;
 }
 header .cpca-navbar ul li a {
   font-family: "Roboto";
@@ -444,6 +452,9 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
 }
 .cpca-service-wrapper .cpca-service-grid > :nth-child(3n+2) {
   margin-top: -30px;
+}
+.cpca-service-wrapper .cpca-service-grid .cpca-service-grid-item {
+  min-height: 460px;
 }
 .cpca-service-wrapper .cpca-title-contant {
   margin: 90px auto 0;
@@ -704,6 +715,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   align-items: flex-start;
   padding: 50px 30px;
   margin-bottom: 30px;
+  min-height: 460px;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review {
   padding-bottom: 60px;
@@ -1005,7 +1017,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   line-height: 155%;
   color: #515151;
   padding-left: 16px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 .cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-social-icon {
   display: flex;

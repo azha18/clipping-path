@@ -11,7 +11,9 @@ body{
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }
-
+a{
+	text-decoration: none;
+}
 img{
 	width: 100%;
 }
@@ -215,7 +217,9 @@ p{
 	}
 
 }
-
+.cpca-active{
+	color: $secendary-color;
+}
 header{
 	.cpca-navbar{
 		padding: 20px 25px;
@@ -226,7 +230,7 @@ header{
 
 		}
 		ul li{
-			padding: 15px;
+			padding: 5px 15px;
 			a{
 				font-family: 'Roboto';
 				font-style: normal;
@@ -236,6 +240,8 @@ header{
 				&:hover {
 				    color: $secendary-color;
 				}
+
+				
 			}
 
 		}
@@ -517,6 +523,7 @@ header{
 			margin-top: -30px;
 		}
 		.cpca-service-grid-item{
+			min-height: 460px;
 		}
 	}
 	.cpca-title-contant {
@@ -853,6 +860,7 @@ header{
 		    align-items: flex-start;
 		    padding: 50px 30px;
 		    margin-bottom: 30px;
+		    min-height: 460px;
 
 			.cpca-review{
 				padding-bottom: 60px;
@@ -1257,7 +1265,7 @@ header{
 							line-height: 155%;
 							color: $content-color;
 							padding-left: 16px;
-							padding-bottom: 25px;
+							padding-bottom: 10px;
 						}
 
 					}
