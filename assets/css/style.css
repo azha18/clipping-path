@@ -115,12 +115,11 @@ p {
   margin-left: 12px;
 }
 
-.background-img {
-  background-image: url(../images/background-grp.png);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
+/*.background-img{
+	background-image: url(../images/background-grp.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}*/
 /*.grid-item-up{
 	:nth-child(3n+2){
 		margin-top: -20px;
@@ -465,6 +464,10 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
 
 .cpca-start-wrapper {
   position: relative;
+  background-image: url(../images/background-grp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50px 40px;
 }
 .cpca-start-wrapper .cpca-after-img .cpca-after-img-One {
   position: absolute;
@@ -498,7 +501,6 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   background: none;
   box-shadow: none;
   padding: 22px 10px;
-  margin-bottom: 50px;
 }
 .cpca-start-wrapper .cpca-start-grid .cpca-start-grid-item h5 {
   font-weight: 700;
@@ -670,6 +672,11 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   display: flex;
 }
 
+.cpca-work-wrapper {
+  background-image: url(../images/background-grp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .cpca-work-wrapper .cpca-work-grid .cpca-work-grid-item {
   background: none;
   box-shadow: none;
@@ -699,6 +706,13 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   height: 48px;
 }
 
+.cpca-testimonial-wrapper {
+  position: relative;
+  background-image: url(../images/background-grp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50px 40px;
+}
 .cpca-testimonial-wrapper .cpca-testimonial-title-content span {
   color: #FF8643;
 }

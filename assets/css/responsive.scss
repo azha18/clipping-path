@@ -828,7 +828,10 @@
 
 	 				.cpca-trust-thousend{
 	 					text-align: center;
+
 	 					.cpca-thousend-head{
+	 						justify-content: center;
+
 	 						h5{
 	 							font-size: 16px;
 	 							margin: 0;
@@ -856,6 +859,14 @@
 	 				.cpca-trust-pilot{
 	 						width: 170px;
 	 						border: none;
+
+	 						img{
+	 							padding-left: 12px;
+	 						}
+
+	 						p{
+	 							font-size: 12px;
+	 						}
 	 					}
 	 			}
 	 		}
@@ -914,8 +925,10 @@
 	 			>:nth-child(3n+2){
 	 				margin-top: 10px;
 	 			}
+
 	 			.cpca-service-grid-item{
 	 				min-height: auto;
+	 				padding: 25px 30px;
 	 			}
 	 		}
 	 		.cpca-title-contant {
@@ -939,16 +952,20 @@
 	 	}
 
 	 	.cpca-start-wrapper{
+	 		background: #fff;
 	 		.cpca-after-img{
 	 			display: none;
 	 		}
 	 		.cpca-start-grid{
+	 			margin-bottom: 50px;
 	 			>:nth-child(2n){
 	 				margin-top: 10px;
 	 			}
-	 			.cpca-start-grid-item{
-	 				margin-bottom: 0;
-	 				padding: 0;
+	 			.cpca-start-grid-items{
+	 				.cpca-start-grid-item{
+	 					margin-bottom: 10px;
+	 					padding: 0;
+	 				}
 	 			}
 	 		}
 	 	}
@@ -964,8 +981,15 @@
 	 		}
 	 	}
 
+	 	.cpca-work-wrapper{
+	 		background: #fff;
+	 	}
+
 	 	.cpca-pricing-wrapper{
 	 		.cpca-pricing-grid{
+	 			>:nth-child(2n) {
+	 				margin-top: 10px;
+	 			}
 	 			.cpca-pricing-grid-item{
 	 				padding: 0;
 
@@ -998,6 +1022,7 @@
 	 	}
 
 	 	.cpca-testimonial-wrapper{
+	 		background: #fff;
 	 		.cpca-testimonial-grid{
 	 			.cpca-grid-item{
 	 				min-height: auto;
