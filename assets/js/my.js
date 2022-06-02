@@ -56,8 +56,6 @@
 
         });
 
-
-
         // slick slider section
         $('.cpca-slider-grid').slick({
             infinite: true,
@@ -67,7 +65,7 @@
             draggable: false,
             responsive: [
                 {
-                  breakpoint: 769,
+                  breakpoint: 990,
                   settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
@@ -92,7 +90,7 @@
             dots: true,
             responsive: [
                 {
-                  breakpoint: 769,
+                  breakpoint: 990,
                   settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1
@@ -106,6 +104,12 @@
                   }
                 }
             ]
+        });
+
+        // $(selector).countMe(delay,speed)
+        $('.cpca-count').counterUp({
+            delay: 100,
+            time: 1000
         });
 
 
@@ -122,9 +126,12 @@
     });
 
 
+   
+
+
 })(jQuery);
 
 
-
+ 
 
 

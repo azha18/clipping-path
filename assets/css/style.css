@@ -231,7 +231,6 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   padding-bottom: 62px;
   min-height: 800px;
   background: #fff;
-  position: relative;
 }
 .cpca-hero .cpca-hero-left .cpca-hero-left-item {
   padding-top: 50px;
@@ -310,12 +309,15 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   padding-top: 5px;
   margin: 0;
 }
+.cpca-hero .cpca-hero-img-aftr-before {
+  position: relative;
+}
 .cpca-hero .cpca-hero-img-aftr-before .cpca-hero-img-after {
   width: 50px;
   position: absolute;
-  top: 5%;
-  left: 45%;
-  transform: translate(112px, 150px);
+  top: 0;
+  left: 0;
+  transform: translate(228px, 150px);
   z-index: 111;
 }
 .cpca-hero .cpca-hero-img-aftr-before .cpca-hero-img-after p {
@@ -329,11 +331,10 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
 .cpca-hero .cpca-hero-img-aftr-before .cpca-hero-img-before {
   width: 60px;
   position: absolute;
-  top: 5%;
-  right: 10%;
-  transform: translate(112px, 150px);
+  top: 0;
+  right: 0;
+  transform: translate(-344%, 440%);
   z-index: 111;
-  color: 0;
 }
 .cpca-hero .cpca-hero-img-aftr-before .cpca-hero-img-before p {
   background: #FF8643;

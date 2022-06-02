@@ -268,7 +268,6 @@ header{
 	padding-bottom: 62px;
 	min-height: 800px;
 	background: #fff;
-	position: relative;
 
 	.cpca-hero-left{
 		.cpca-hero-left-item{
@@ -360,13 +359,14 @@ header{
 	}
 
 	.cpca-hero-img-aftr-before{
+		position: relative;
 		.cpca-hero-img-after{
 		    width: 50px;
-		    position: absolute;
-		    top: 5%;
-		    left: 45%;
-		    transform: translate(112px,150px);
-		    z-index: 111;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform: translate(228px,150px);
+			z-index: 111;
 
 		    p{
 		    	background: #0d6efd;
@@ -380,12 +380,11 @@ header{
 
 		.cpca-hero-img-before{
 		    width: 60px;
-		    position: absolute;
-		    top: 5%;
-		    right: 10%;
-		    transform: translate(112px,150px);
-		    z-index: 111;
-		    color: 000;
+	        position: absolute;
+	        top: 0;
+	        right: 0;
+	        transform: translate(-344%,440%);
+	        z-index: 111;
 
 	        p{
 	        	background: $secendary-color;
