@@ -373,7 +373,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   margin-bottom: 14px;
   display: flex;
   align-items: center;
-  color: #515151;
+  color: rgb(81, 81, 81);
 }
 .cpca-hero .cpca-hero-right-options ul li img {
   width: 12px;
@@ -733,7 +733,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   min-height: 460px;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review {
-  padding-bottom: 60px;
+  min-height: 235px;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review p {
   font-weight: 400;
@@ -747,20 +747,18 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   font-weight: 600;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review .item-img {
-  width: 40px;
-  height: 40px;
+  width: 38px;
+  height: 28px;
   margin-bottom: 25px;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review-author-details {
   display: flex;
+  align-items: center;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review-author-details .cpca-review-author-img {
   width: 85px;
   height: auto;
   margin-right: 10px;
-}
-.cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review-author-details .cpca-review-author-prfl {
-  padding: 20px 5px;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review-author-details .cpca-review-author-prfl h5 {
   font-weight: 400;
@@ -768,6 +766,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   line-height: 26px;
   padding: 0;
   margin: 0;
+  text-align: left;
 }
 .cpca-testimonial-wrapper .cpca-testimonial-grid .cpca-testimonial-grid-item .cpca-review-author-details .cpca-review-author-prfl img {
   width: 100px;
@@ -913,7 +912,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   bottom: -8px;
 }
 .cpca-accordion-wrapper .cpca-accordion-grid {
-  padding-bottom: 180px;
+  padding-bottom: 165px;
 }
 .cpca-accordion-wrapper .cpca-accordion-grid .cpca-accordion {
   width: 70%;
@@ -1022,17 +1021,19 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
 }
 .cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-footer-contact-items .cpca-footer-contact-item {
   display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 .cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-footer-contact-items .cpca-footer-contact-item img {
-  width: 22px;
-  height: 22px;
+  width: 26px;
+  height: 18px;
 }
 .cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-footer-contact-items .cpca-footer-contact-item p {
   font-size: 16px;
   line-height: 155%;
   color: #515151;
   padding-left: 16px;
-  padding-bottom: 10px;
+  margin: 0;
 }
 .cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-social-icon {
   display: flex;
