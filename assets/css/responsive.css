@@ -381,7 +381,17 @@
     margin-top: 10px;
   }
 
-  .cpca-start-wrapper .cpca-after-img {
+  .cpca-start-wrapper .cpca-after-img > :nth-child(1) {
+    transform: rotate(190deg);
+    top: 59%;
+    left: 41%;
+  }
+  .cpca-start-wrapper .cpca-after-img > :nth-child(2) {
+    transform: rotate(-8deg);
+    top: 33%;
+    right: 41%;
+  }
+  .cpca-start-wrapper .cpca-after-img > :nth-child(3) {
     display: none;
   }
   .cpca-start-wrapper .cpca-start-grid {
@@ -396,6 +406,10 @@
 
   .cpca-slider-wrapper .cpca-slider-grid .slick-prev, .cpca-slider-wrapper .cpca-slider-grid .slick-next {
     display: none !important;
+  }
+
+  .cpca-accordion-wrapper .cpca-accordion-grid {
+    padding-bottom: 100px;
   }
 
   .cpca-footer-wrapper .cpca-footer-grid .cpca-footer-grid-item {

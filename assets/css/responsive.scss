@@ -583,7 +583,22 @@
 
  	.cpca-start-wrapper{
  		.cpca-after-img{
- 			display: none;
+ 			>:nth-child(1){
+ 				transform: rotate(190deg);
+ 				top: 59%;
+    			left: 41%;
+
+ 			}
+
+ 			>:nth-child(2){
+ 				transform: rotate(-8deg);
+ 				top: 33%;
+ 				right: 41%;
+ 			}
+
+ 			>:nth-child(3){
+ 				display: none;
+ 			}
  		}
 
  		.cpca-start-grid{
@@ -612,6 +627,12 @@
 				display: none !important;
 			}
 		}
+ 	}
+
+ 	.cpca-accordion-wrapper{
+ 		.cpca-accordion-grid{
+ 			padding-bottom: 100px;
+ 		}
  	}
 
  	.cpca-footer-wrapper{
