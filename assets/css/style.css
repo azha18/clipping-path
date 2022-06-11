@@ -348,10 +348,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
-  padding-left: 24px;
-}
-.cpca-hero .cpca-hero-right-options {
-  padding-left: 24px;
+  border: 1px solid #FF8643;
 }
 .cpca-hero .cpca-hero-right-options ul {
   width: 100%;
@@ -363,7 +360,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
 .cpca-hero .cpca-hero-right-options ul :nth-child(3n) {
   justify-content: end;
 }
-.cpca-hero .cpca-hero-right-options ul li {
+.cpca-hero .cpca-hero-right-options ul a {
   list-style: none;
   width: 33%;
   font-size: 14px;
@@ -371,13 +368,22 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   text-transform: uppercase;
   display: flex;
   margin-bottom: 14px;
-  display: flex;
   align-items: center;
   color: rgb(81, 81, 81);
 }
-.cpca-hero .cpca-hero-right-options ul li img {
-  width: 12px;
-  height: 12px;
+.cpca-hero .cpca-hero-right-options ul a li {
+  list-style: none;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  margin-bottom: 14px;
+  align-items: center;
+  color: rgb(81, 81, 81);
+}
+.cpca-hero .cpca-hero-right-options ul a li img {
+  width: 16px;
+  height: 16px;
   margin-right: 9px;
 }
 
@@ -1046,7 +1052,13 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   font-weight: 600;
   font-size: 18px;
   line-height: 21px;
-  padding-bottom: 20px;
+  padding-bottom: 11px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+.cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-form-submit p {
+  font-size: 12px;
+  text-align: left;
 }
 .cpca-footer-wrapper .cpca-footer-grid .cpca-footer-contact .cpca-form-submit .cpca-submit-form {
   background: #F5F5F5;
@@ -1096,7 +1108,7 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
 .cpca-footer-wrapper .cpca-footer-payment .cpca-payment-item {
   display: flex;
   width: 100%;
-  padding-bottom: 40px;
+  padding-bottom: 0px;
 }
 .cpca-footer-wrapper .cpca-footer-payment .cpca-payment-item .cpca-footer-service {
   width: 50%;

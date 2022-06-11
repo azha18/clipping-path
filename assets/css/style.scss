@@ -401,11 +401,10 @@ header{
 		width: 100%;
 		height: auto;
 		margin-bottom: 20px;
-		padding-left: 24px;
+		border: 1px solid $secendary-color; 
 	}
 	
 	.cpca-hero-right-options{
-		padding-left: 24px;
 
 		ul{
 			width: 100%;
@@ -418,7 +417,7 @@ header{
 				justify-content: end;
 			}
 
-			li{
+			a{
 				list-style: none;
 				width: 33%;
 				font-size: 14px;
@@ -426,14 +425,24 @@ header{
 				text-transform: uppercase;
 				display: flex;
 				margin-bottom: 14px;
-				display: flex;
 				align-items: center;
 				color: rgba(81, 81, 81, 1);
 
-				img{
-					width: 12px;
-					height: 12px;
-					margin-right: 9px;
+				li{
+					list-style: none;
+					font-size: 14px;
+					line-height: 16px;
+					text-transform: uppercase;
+					display: flex;
+					margin-bottom: 14px;
+					align-items: center;
+					color: rgba(81, 81, 81, 1);
+
+					img{
+						width: 16px;
+						height: 16px;
+						margin-right: 9px;
+					}
 				}
 			}
 		}	
@@ -1298,7 +1307,13 @@ header{
 						font-weight: 600;
 						font-size: 18px;
 						line-height: 21px;
-						padding-bottom: 20px;
+						padding-bottom: 11px;
+						margin-bottom: 0px;
+						text-align: left; 
+					}
+					p{
+						font-size: 12px;
+						text-align: left;
 					}
 					.cpca-submit-form{
 						background: #F5F5F5;
@@ -1361,7 +1376,7 @@ header{
 		.cpca-payment-item{
 			display: flex;
 			width: 100%;
-			padding-bottom: 40px;
+			padding-bottom: 0px;
 
 			.cpca-footer-service{
 				width: 50%;

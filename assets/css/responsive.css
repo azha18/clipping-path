@@ -106,10 +106,9 @@
     height: auto;
     width: 100%;
   }
-  .cpca-hero .cpca-hero-right-options ul li {
+  .cpca-hero .cpca-hero-right-options ul a {
     font-size: 12px;
   }
-
   .cpca-counter-wrapper {
     min-height: auto;
     padding-top: 35px;
@@ -612,10 +611,10 @@
     position: relative;
   }
   .cpca-hero .cpca-hero-img-aftr-before .cpca-hero-img-after {
-    transform: translate(265%, 273%);
+    transform: translate(160%, 273%);
   }
   .cpca-hero .cpca-hero-img-aftr-before .cpca-hero-img-before {
-    transform: translate(-200%, 275%);
+    transform: translate(-120%, 272%);
   }
   .cpca-hero .cpca-hero-right {
     padding: 0;
@@ -626,9 +625,9 @@
   .cpca-hero .cpca-hero-right-options ul :nth-child(3n) {
     justify-content: start;
   }
-  .cpca-hero .cpca-hero-right-options ul li {
+  .cpca-hero .cpca-hero-right-options ul a li {
     width: 50%;
-    font-size: 11px;
+    font-size: 10px;
   }
 
   .cpca-counter-wrapper .cpca-bottom-items {
@@ -760,6 +759,9 @@
     flex-direction: column;
     width: 90%;
     height: 140px;
+  }
+  .cpca-footer-wrapper .cpca-footer-grid .cpca-get-start-us .cpca-brand-item {
+    justify-content: center;
   }
   .cpca-footer-wrapper .cpca-footer-grid .cpca-get-start-us .cpca-brand-item h5 {
     font-size: 15px;

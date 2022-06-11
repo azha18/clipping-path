@@ -153,8 +153,11 @@
 
 			.cpca-hero-right-options{
 				ul{
-					li{
+					a{
 						font-size: 12px;
+						li{
+
+						}
 					}
 				}
 			}
@@ -943,12 +946,12 @@
 
 	 			.cpca-hero-img-after{
 
-	 				transform: translate(265%, 273%);
+	 				transform: translate(160%, 273%);
 	 			}
 
 	 			.cpca-hero-img-before{
 
-	 		        transform: translate(-200%, 275%);
+	 		        transform: translate(-120%, 272%);
 	 			}
 	 		}
 	 		.cpca-hero-right{
@@ -962,9 +965,12 @@
 	 					justify-content: start;
 	 				}
 
-	 				li{
-	 					width: 50%;
-	 					font-size: 11px;
+	 				a{
+
+	 					li{
+	 						width: 50%;
+	 						font-size: 10px;
+	 					}
 	 				}
 	 			}
 	 		}
@@ -1170,6 +1176,8 @@
 	 				height: 140px;
 
 	 				.cpca-brand-item{
+	 					justify-content: center;
+
 	 					h5{
 	 						font-size: 15px;
 	 					}
