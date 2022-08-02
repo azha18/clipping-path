@@ -115,12 +115,11 @@
 
 
         // compare img plugin section
-        $(function(){
-            $('.cpca-hero-right').beforeAfter();
-        });
-
-        $(function(){
-            $('.cpca-slider-cmpr-imgs').beforeAfter();
+        $(".beforeafterdefault").cndkbeforeafter({
+          mode: "drag",
+          theme: "dark",
+          showText: false,
+          autoSliding: true
         });
 
     });
