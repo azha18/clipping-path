@@ -337,10 +337,10 @@ header .cpca-navbar .cpca-buttons .cpca-get-btn {
   z-index: 111;
 }
 .cpca-hero .cpca-hero-img-aftr-before .cpca-hero-img-before p {
-  background: #FF8643;
+  background: #fff;
   padding: 5px;
   margin: 0;
-  color: #fff;
+  color: #000;
   text-align: center;
   border-radius: 4px;
 }

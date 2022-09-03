@@ -68,14 +68,18 @@
                   breakpoint: 990,
                   settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    swipe: false,
+                    swipeToSlide: false,
                   }
                 },
                 {
                   breakpoint: 577,
                   settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToScroll: 1,
+                    swipe: false,
+                    swipeToSlide: false,
                   }
                 }
             ]
@@ -117,9 +121,9 @@
         // compare img plugin section
         $(".beforeafterdefault").cndkbeforeafter({
           mode: "drag",
-          theme: "dark",
+          // theme: "dark",
           showText: false,
-          autoSliding: true
+          autoSliding: false
         });
 
     });
